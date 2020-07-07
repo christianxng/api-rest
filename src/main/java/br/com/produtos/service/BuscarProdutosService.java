@@ -40,12 +40,6 @@ public class BuscarProdutosService {
 				
 	}
 
-	private Optional<Produto> getOptional(Long id) {
-		Optional<Produto> produtoBuscado = 
-				 produtosRepositorio.findById(id);
-		return produtoBuscado;
-	}
-	
 	
 	// Serviço de Excluir Por ID
 	public void deletarProdutoId(Long id) throws ProdutoNotFoundException {		
@@ -59,6 +53,14 @@ public class BuscarProdutosService {
 		}
 		
 	}
+	
+	// retorna um Optional do id;
+	Optional<Produto> getOptional(Long id) {
+		Optional<Produto> produtoBuscado = 
+				 produtosRepositorio.findById(id);
+		return produtoBuscado;
+	}
+	
 	
 	
 	

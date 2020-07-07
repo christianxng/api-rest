@@ -39,11 +39,9 @@ public class Produto implements Serializable{
     private Long quantidadeProduto;
 	
 	
-	@SuppressWarnings("unused")
 	public Produto() {
 		
 	}
-
 
 
 	public Produto(String nomeProduto, String descricaoProduto, Integer qnt_estoqueProduto, String categoriaProduto,
@@ -121,6 +119,18 @@ public class Produto implements Serializable{
 
 	public void setQuantidadeProduto(Long quantidadeProduto) {
 		this.quantidadeProduto = quantidadeProduto;
+	}
+
+
+
+	public Long getCodigoProduto() {
+		return codigoProduto;
+	}
+
+
+
+	public void setCodigoProduto(Long codigoProduto) {
+		this.codigoProduto = codigoProduto;
 	}
 	
 	

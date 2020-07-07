@@ -4,7 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ProdutoResource {
 
-
+	@JsonProperty("id_produto")
+	private String idProduto;
 	
 	@JsonProperty("nome_produto")
 	private String nomeProduto;
@@ -64,6 +65,12 @@ public class ProdutoResource {
 	}
 	public void setQuantidadeProduto(String quantidadeProduto) {
 		this.quantidadeProduto = quantidadeProduto;
+	}
+	public String getIdProduto() {
+		return idProduto;
+	}
+	public void setIdProduto(String idProduto) {
+		this.idProduto = idProduto;
 	}
 	
 	
