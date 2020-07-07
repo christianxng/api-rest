@@ -2,7 +2,7 @@
 
 <p>Api desenvolvida para estudos e prática. Base de Estudo:  Estoque de Produtos.</p>
 
-<p>Api Rest em JAVA utilizando Spring. Foram Implementados os métodos GET, POST e DELETE. </p>
+<p>Api Rest em JAVA utilizando Spring. Foram Implementadas as operações GET, POST e DELETE. </p>
 
 <p>Retorno em JSON. </p>  
 
