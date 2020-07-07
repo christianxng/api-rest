@@ -7,7 +7,7 @@
 #### Banco utilizado: PostgreSQL.
 
 
-## APIs
+## APIs Descrição
 ![Abaixo está a representação da documentação das APIs com o SWAGGER](https://github.com/christianxng/api-rest/blob/master/imagens/Principal.png)
 
 ### Descrição API buscarProdutos (Retorna todos os produtos cadastrados.)
